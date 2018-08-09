@@ -1,0 +1,19 @@
+greetingfunction=()->System.out.println("HelloGreeting");
+greet(greetingfunction)
+greet(()->System.out.println("HelloGreeting"))
+
+doubleNumberFunction= (int a)->a*2;
+
+addfunctions=(int a, int b) ->a+b;
+
+safeDivideFunction=(int a ,intb) -> 
+{
+if(b!=0)
+return a/b;
+
+else
+return 0;
+};
+
+StringLengthCount=(String s)->s.length();
+
